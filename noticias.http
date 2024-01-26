@@ -1,0 +1,15 @@
+
+
+POST http://localhost:3000/scraping
+Content-Type: application/json
+
+{
+    "titulo": "Nuestro primer articulo",
+    "imagen": "http:/primer_articulo",
+    "descripcion": "Nuestro primer articulo descripción",
+    "enlace": "http:/primer_articulo"
+}
+
+###
+
+DELETE http://localhost:3000/scraping/https://elpais.com/economia/2024-01-26/sanchez-anuncia-una-ampliacion-del-aeropuerto-adolfo-suarez-madrid-barajas-con-una-inversion-de-mas-de-2400-millones.html
