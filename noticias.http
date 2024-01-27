@@ -4,7 +4,7 @@ POST http://localhost:3000/scraping
 Content-Type: application/json
 
 {
-    "titulo": "Nuestro segundo articulo",
+    "titulo": "hola que tal otra prueba",
     "imagen": "http:/primer_articulo",
     "descripcion": "Nuestro primer articulo descripción",
     "enlace": "http:/segundo_articulo"
